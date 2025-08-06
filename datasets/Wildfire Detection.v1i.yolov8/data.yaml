@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['fire', 'non-fire', 'smoke']
+
+roboflow:
+  workspace: wildfire-detection-owiau
+  project: wildfire-detection-ulswn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wildfire-detection-owiau/wildfire-detection-ulswn/dataset/1
